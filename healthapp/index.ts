@@ -24,7 +24,7 @@ app.get('/bmi', (req, res) => {
     const bmiValues = parseArguments(values);
     const result = {...bmiValues, bmi: calculateBmi(bmiValues)};
     return res.send(result);
-  } catch (_error: unknown) {
+  } catch {
    return res.status(400).json({
     error: "malformatted parameters"
    });
