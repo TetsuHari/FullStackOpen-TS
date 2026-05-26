@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "noEmit": true,
+    "types": ["node", "cors", "express"],
+    "module": "nodenext",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "strict" : true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}
